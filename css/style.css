@@ -1,0 +1,31 @@
+body {
+  font-family: helvetica, sans-serif;
+}
+
+.remove {
+  margin-left: 8px;
+}
+
+.buttonStyle {
+  font-size: 12px;
+  background-color: rgba(103, 121, 224, .5);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.buttonStyle:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+
+#inputBox {
+  width: 300px;
+}
+
+ol li:nth-child(even){background: #dfdfdf;}
+
+ol li {
+  padding: 5px;
+  width: 350px;
+}
+

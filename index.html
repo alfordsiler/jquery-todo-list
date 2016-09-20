@@ -3,9 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Front-End</title>
+  <title>To Do List</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
 <body>
-  <h1>Hello Front-End</h1>
+  <h1>TO-DO LIST</h1>
+  <h5>Click the X to remove an added item.</h5>
+  <form>
+    <input type="text" name="to do input" id="inputBox">
+    <br>
+    <button class="buttonStyle" id="submitButton">Add Something</button>
+    <button class="buttonStyle" id="removeAll">Clear All Items</button>
+  </form>
+
+    <ol id="mainList" class="sortable">
+    </ol>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <!-- your other JS Links -->
+  <script src="app.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
 </body>
 </html>
